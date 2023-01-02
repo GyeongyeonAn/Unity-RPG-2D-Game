@@ -51,9 +51,9 @@ public class MovementController : MonoBehaviour
             animator.SetInteger(animationState, (int)CharStates.walkEast);
         else if (movement.x < 0)
             animator.SetInteger(animationState, (int)CharStates.walkWest);
-        else if (movement.y < 0)
-            animator.SetInteger(animationState, (int)CharStates.walkNorth);
         else if (movement.y > 0)
+            animator.SetInteger(animationState, (int)CharStates.walkNorth);
+        else if (movement.y < 0)
             animator.SetInteger(animationState, (int)CharStates.walkSouth);
         else
             animator.SetInteger(animationState, (int)CharStates.idleSouth);
