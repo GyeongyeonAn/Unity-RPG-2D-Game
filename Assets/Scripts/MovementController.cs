@@ -26,7 +26,7 @@ public class MovementController : MonoBehaviour
 
     private void Update()
     {
-        UpdateState();    
+        UpdateState();
     }
 
     private void FixedUpdate()
@@ -39,7 +39,7 @@ public class MovementController : MonoBehaviour
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
-        // º¤ÅÍ¸¦ Á¤±ÔÈ­ÇÏ¿© ÇÃ·¹ÀÌ¾î°¡ ´ë°¢¼±, ¼öÁ÷, ¼öÆò, ¾î´À ¹æÇâÀ¸·Î ¿òÁ÷ÀÌµç ÀÏÁ¤ÇÑ ¼Ó·ÂÀ» À¯ÁöÇÏµµ·Ï ÇØÁØ´Ù.
+        // ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½Ï¿ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾î°¡ ï¿½ë°¢ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ó·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø´ï¿½.
         movement.Normalize();
 
         rb2D.velocity = movement * movementSpeed;
