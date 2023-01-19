@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b95857c3b932b418d27f41f6f342df, type: 3}
+  m_Name: Coin
+  m_EditorClassIdentifier: 
+  objectName: coin
+  sprite: {fileID: -168889227, guid: d480382123de1894f844ff3902b7f65c, type: 3}
+  quantity: 0
+  stackable: 1
+  itemType: 0
