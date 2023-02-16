@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 // 왜 에러뜨지
+// 이슈에 커밋 달기
 public class Inventory : MonoBehaviour
 {
     public GameObject slotPrefab;
